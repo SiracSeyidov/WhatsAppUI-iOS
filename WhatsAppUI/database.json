@@ -1,0 +1,130 @@
+{
+  "profile": {
+    "name": "John Doe",
+    "biography": "Software Engineer",
+    "photo": "profile_photo.jpg"
+  },
+  "chats": [
+    {
+      "id": "1",
+      "name": "Alice",
+      "time": "2024-05-25T08:00:00",
+      "imageName": "chat_image_1.jpg",
+      "messages": [
+        {
+          "id": "1",
+          "isReceived": true,
+          "text": "Hello, how are you?",
+          "time": "2024-05-25T08:01:00"
+        },
+        {
+          "id": "2",
+          "isReceived": false,
+          "text": "I'm good, thanks! How about you?",
+          "time": "2024-05-25T08:02:00"
+        },
+        {
+          "id": "3",
+          "isReceived": true,
+          "text": "I'm doing well too.",
+          "time": "2024-05-25T08:03:00"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Bob",
+      "time": "2024-05-24T15:30:00",
+      "imageName": "chat_image_2.jpg",
+      "messages": [
+        {
+          "id": "1",
+          "isReceived": true,
+          "text": "Hey, what's up?",
+          "time": "2024-05-24T15:31:00"
+        },
+        {
+          "id": "2",
+          "isReceived": false,
+          "text": "Not much, just chilling.",
+          "time": "2024-05-24T15:32:00"
+        },
+        {
+          "id": "3",
+          "isReceived": true,
+          "text": "Cool.",
+          "time": "2024-05-24T15:33:00"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Emily",
+      "time": "2024-05-23T10:00:00",
+      "imageName": "chat_image_3.jpg",
+      "messages": [
+        {
+          "id": "1",
+          "isReceived": true,
+          "text": "Hi there!",
+          "time": "2024-05-23T10:01:00"
+        },
+        {
+          "id": "2",
+          "isReceived": false,
+          "text": "Hey, how's it going?",
+          "time": "2024-05-23T10:02:00"
+        },
+        {
+          "id": "3",
+          "isReceived": true,
+          "text": "I'm doing great, thanks!",
+          "time": "2024-05-23T10:03:00"
+        }
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "id": "1",
+      "name": "Jane",
+      "imageName": "call_image_1.jpg",
+      "type": "video",
+      "time": "2024-05-25T10:00:00"
+    },
+    {
+      "id": "2",
+      "name": "Michael",
+      "imageName": "call_image_2.jpg",
+      "type": "voice",
+      "time": "2024-05-24T12:30:00"
+    },
+    {
+      "id": "3",
+      "name": "Sarah",
+      "imageName": "call_image_3.jpg",
+      "type": "video",
+      "time": "2024-05-23T14:00:00"
+    }
+  ],
+  "updates": [
+    {
+      "id": "1",
+      "name": "New Feature Added",
+      "imageName": "update_image_1.jpg",
+      "time": "2024-05-25T12:00:00"
+    },
+    {
+      "id": "2",
+      "name": "Bug Fixes",
+      "imageName": "update_image_2.jpg",
+      "time": "2024-05-24T09:00:00"
+    },
+    {
+      "id": "3",
+      "name": "Performance Improvements",
+      "imageName": "update_image_3.jpg",
+      "time": "2024-05-23T16:00:00"
+    }
+  ]
+}
